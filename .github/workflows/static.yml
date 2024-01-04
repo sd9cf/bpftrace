@@ -1,6 +1,6 @@
 name: Static
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 # Cancel previous run if a new one is started
 concurrency:
